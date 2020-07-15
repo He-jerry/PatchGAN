@@ -22,9 +22,9 @@ from torch.utils.data import Dataset
 from PIL import Image
 import torchvision.transforms as transforms
 
-imgpath='/public/zebanghe2/cycledomain/dataset/localmix'
+imgpath='/public/zebanghe2/cycledomain/dataset/reversemix'
 transpath='/public/zebanghe2/cycledomain/dataset/transmission'
-maskpath='/public/zebanghe2/cycledomain/dataset/localref'
+maskpath='/public/zebanghe2/cycledomain/dataset/reverseref'
 gmixpath='/public/zebanghe2/cycledomain/dataset/globalmix'
 grefpath='/public/zebanghe2/cycledomain/dataset/globalref'
 class ImageDataset(Dataset):
