@@ -1,0 +1,17 @@
+### DEFAULT SETTINGS #########################
+#rank           = 
+priority        = 0
+notification    = Never
+notify_user     = 
+getenv          = True
+#environment    = HOME=¡¥/public/zebanghe2/miniconda/envs/psp/¡¦
+request_GPUs = 1
+### JOB ###########################
+executable      = train.py
+arguments       = 
+input           =
+output          = 20207124.out
+error           = 20207124.err
+log             = 20207124.log
+
+queue
